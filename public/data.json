@@ -1,0 +1,39 @@
+{
+    "R_Project": [
+        {
+            "id": 1 ,
+            "projectName": "Coffee Shop",
+            "projectLink": "file:///D:/coffee/index.html",
+            "image": "./imgs/web-project 1.png",
+            "type": "Web"
+        },
+        {
+            "id": 2 ,
+            "projectName": "Egyptiano",
+            "projectLink": "file:///D:/coffee/index.html",
+            "image": "./imgs/web-project 2.png",
+            "type": "Web"
+        },
+        {
+            "id": 3 ,
+            "projectName": "ENGAGE",
+            "projectLink": "file:///D:/coffee/index.html",
+            "image": "./imgs/web-project 5.png",
+            "type": "Web"
+        }
+        ,        {
+            "id": 4 ,
+            "projectName": "Healofast",
+            "projectLink": "file:///D:/coffee/index.html",
+            "image": "./imgs/UI UX 1.png",
+            "type": "UI/UX"
+        }
+        ,{
+            "id": 5 ,
+            "projectName": "VivaDecor",
+            "projectLink": "file:///D:/coffee/index.html",
+            "image": "./imgs/web-project 4.png",
+            "type": "Web"
+        }
+    ]
+}

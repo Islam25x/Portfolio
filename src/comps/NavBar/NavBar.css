@@ -1,0 +1,75 @@
+:root{
+    --main-color: #6a3ec7;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.navbar{
+    background: linear-gradient(to right ,#0f0715,#100716,#211237);
+    padding-top: 1rem;
+    font-family: "Sora", sans-serif;
+}
+.navbar .navbar-brand i{
+    color: white;
+    font-size: 3.5rem;
+    margin-right: 2rem;
+}
+.navbar .navbar-brand p{
+    color: white;
+    font-size: 1rem;
+    align-content: end;
+    margin-top: 0.7rem;
+    cursor: pointer;
+}
+.navbar .navbar-toggler{
+    border-color: white;
+}
+#navbarScroll{
+    flex-grow: 0 !important;
+}
+.navbar a{
+    color: white;
+    margin-left: 2rem;
+    transition: .3s;
+    font-weight: 600;
+}
+.navbar a:hover,.navbar .navbar-brand p:hover,#Footer a:hover{
+    color: var(--main-color);
+    font-size: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 767px){
+    .navbar .navbar-brand i{
+        font-size: 2.5rem;
+        margin-right: 1rem;
+    }
+    .navbar .navbar-brand p{
+        font-size: .8rem;
+    }
+}
+
+/* Small Screans */
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Medium Screans  */
+@media (min-width: 992px){
+
+}
+/* Large Screans  */
+@media (min-width: 1200px) {
+
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .navbar .navbar-brand i{
+        font-size: 3.5rem;
+    }
+    .navbar .navbar-brand p{
+        font-size: 1rem;
+    }
+}

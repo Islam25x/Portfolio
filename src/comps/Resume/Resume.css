@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+:root{
+    --border-color:#3f1c81;
+    --font-color:#8750f7;
+}
+#Resume{
+    padding: 3rem 0;
+    background-color: #050709;
+    font-family: "Sora", sans-serif;
+}
+#Resume .title{
+    margin-bottom: 3rem;
+}
+#Resume .title i{
+    color: var(--border-color);
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    align-content: center;
+}
+#Resume .title h2{
+    font-size: 45px;
+    margin-top: .5rem;
+}
+#Resume .con-box{
+    position: relative;
+    background-color: #140c1c;
+    width: 85%;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+#Resume .con-box:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(260deg, #2a1454 0%, #140c1c 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 1.5rem;
+    opacity: 0;
+    z-index: 1;
+    transition: .5s;
+
+}
+#Resume .con-box .time{
+    position: relative;
+    color: var(--font-color);
+    z-index: 11;
+}
+#Resume .con-box .name{
+    position: relative;
+    color: white;
+    margin: -.5rem 0;
+    z-index: 11;
+}
+#Resume .con-box .des{
+    position: relative;
+    font-weight: normal;
+    font-size: 1rem;
+    z-index: 11;
+}
+#Resume .con-box:hover >  .time{
+    color: white;
+}
+#Resume .con-box:hover::after{
+    opacity: 1;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #Resume .con-box{
+        width: 85%;
+        left: 7%;
+    }
+}
+
+@media (max-width: 767px){
+    #Resume .con-box{
+        width: 85%;
+        left: 7%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #Resume .con-box{
+        width: 85%;
+        left: 7%;
+    }
+}
+@media (min-width: 992px){
+
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1400px) {
+
+}

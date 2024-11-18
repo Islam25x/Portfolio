@@ -1,0 +1,39 @@
+{
+    "MyResumes": [
+        {
+            "id": 1 ,
+            "Date": "2024" ,
+            "ExName": "FRONT-REACT INTERSHIP",
+            "ExDes": "online, Web master",
+            "type":"Ex"
+        },
+        {
+            "id": 2 ,
+            "Date": "2022-2026 (persent)" ,
+            "ExName": "computer science",
+            "ExDes": "Helwan university",
+            "type":"Edu"
+        },
+        {
+            "id": 3 ,
+            "Date": "2024" ,
+            "ExName": "Front-end REACT DIPLOMA",
+            "ExDes": "online, Sef academy",
+            "type":"Edu"
+        },
+        {
+            "id": 4 ,
+            "Date": "2024" ,
+            "ExName": "UI/UX TRAINING",
+            "ExDes": "online, iti",
+            "type":"Edu"
+        }
+        ,        {
+            "id": 5 ,
+            "Date": "2024" ,
+            "ExName": "Front-end ANGULAR TRAINING",
+            "ExDes": "online, iti",
+            "type":"Edu"
+        }
+    ]
+}

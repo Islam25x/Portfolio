@@ -1,0 +1,33 @@
+{
+    "Skills": [
+        {
+            "id": 1 ,
+            "skillName": "Figma",
+            "image": "https://gerold.themejunction.net/wp-content/uploads/2024/05/figma.png"
+        },
+        {
+            "id": 2 ,
+            "skillName": "bootstrap",
+            "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/bootstrap-5-logo-icon.png"
+        },
+        {
+            "id": 3 ,
+            "skillName": "XD",
+            "image": "https://gerold.themejunction.net/wp-content/uploads/2024/05/xd.png"
+        }
+        ,        {
+            "id": 4 ,
+            "skillName": "photoshop",
+            "image": "https://www.svgrepo.com/download/303177/photoshop-cc-logo.svg"
+        }
+        ,{
+            "id": 5 ,
+            "skillName": "React",
+            "image": "https://gerold.themejunction.net/wp-content/uploads/2024/05/react.png"
+        },{
+            "id": 6,
+            "skillName": "JavaScript",
+            "image": "https://gerold.themejunction.net/wp-content/uploads/2024/05/js.png"
+        }
+    ]
+}

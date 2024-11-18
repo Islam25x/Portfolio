@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    transition: .3s;
+}
+:root{
+    --border-color:#3f1c81;
+    --font-color:#8750f7;
+}
+#Home{
+    height: auto;
+    padding-bottom: 10rem;
+    background: linear-gradient(to right ,#0f0715,#100716,#211237);
+    font-family: "Sora", sans-serif;
+}
+#Home .Hi{
+    display: inline-block;
+    cursor:default ;
+    font-family: "Russo One", sans-serif;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: var(--border-color);
+    color: transparent;
+    fill: transparent;
+    font-size: 240px;
+    animation: 3s Hi infinite alternate ease-in-out;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+}
+#Home .H-con{
+    position: relative;
+    margin-top: 20%;
+    z-index: 1;
+}
+#Home .H-con .H-photo img{
+    display: none;
+}
+#Home .H-con .name{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+#Home .H-con h1,#Services .title,#Works .title,#Skills .top .title,#Resume .title h2,#Contact .left .top .title{
+    font-size: 4rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Home .H-con .H-des,#Services .des,#Skills .top .des,#Resume .con-box .des,#Contact .left .top .des{
+    font-size: 1.3rem;
+    color: #d8d8d8;
+    width: 91%;
+    margin-top: 1rem;
+}
+#Home .H-con .followMe{
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+#Home .H-con .followMe button {
+    background-color: transparent;
+    border: 2px solid var(--border-color);
+    color: var(--font-color);
+    font-size: 1.2rem;
+    padding: .8rem 2rem;
+    border-radius: 2rem;
+}
+#Home .H-con .followMe button i{
+    font-size: 1rem;
+}
+#Home .H-con .followMe a i{
+    position: relative;
+    color: var(--font-color);
+    margin: .5rem 0 0 1rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--border-color);
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+}
+#Home .H-con .followMe button:hover,#Home .H-con .followMe a i:hover{
+    background-color: #8b4ffd;
+    color: white;
+}
+#Home .H-photo img{
+    width: 75%;
+    border-radius: 2.5rem;
+    border: 2px solid var(--border-color);
+    transform: rotate(3deg);
+    position: relative;
+    top: 5rem;
+    left: 20%;
+    z-index: 1;
+    transition: .3s;
+}
+#Home .H-photo img:hover,#Home .H-con .H-photo img:hover{
+    transform: rotate(0deg);
+    border-color:#8b4ffd;
+}
+#Home .achieve {
+    color: white;
+    margin-top: 5rem;
+}
+#Home .achieve h1 div{
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+}
+#Home .achieve p{
+    font-size: 1rem;
+    width: 50%;
+    align-content: center;
+    margin-left: 1rem;
+}
+@keyframes Hi {
+    from{
+        font-size: 240px;
+    }
+    to{
+        font-size: 260px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 767px){
+    #Home .Hi {
+        display: none;
+    }
+    #Home .H-con .H-photo img {
+        display: block;
+        height: 24rem;
+        margin-bottom: 5rem;
+        width: 70%;
+        border-radius: 2.5rem;
+        border: 2px solid var(--border-color);
+        transform: rotate(3deg);
+        position: relative;
+        top: 2rem;
+        left: 16%;
+        z-index: 1;
+        transition: .3s;
+    }
+    #Home .H-photo img{
+        display: none;
+    }
+    #Home .H-con h1{
+        font-size: 3rem;
+    }
+}
+
+/* Small Screans */
+@media (min-width: 768px) and (max-width: 991px){
+    #Home .H-photo img {
+        width: 56%;
+        top: 2rem;
+        left: 20%;
+    }
+}
+
+/* Medium Screans  */
+@media (min-width: 992px){
+
+}
+/* Large Screans  */
+@media (min-width: 1200px) {
+
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #Home .H-photo img{
+        width: 75%;
+        top: 5rem;
+        left: 20%;
+    }
+}

@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+:root{
+    --border-color:#3f1c81;
+    --font-color:#8750f7;
+}
+#Contact{
+    padding: 3rem 0;
+    background-color: #050709;
+    font-family: "Sora", sans-serif;
+}
+#Contact .left{
+    padding: 3rem 0;
+    background-color: #140c1c;
+    border-radius: 1rem;
+}
+#Contact .left .top{
+    margin-left: 3rem;
+}
+#Contact .left .top .title{
+    font-size: 3rem;
+}
+#Contact .left .top .des{
+    font-size: 1rem;
+}
+#Contact .left form{
+    margin-left: 3rem;
+}
+#Contact .left form input{
+    background-color: black;
+    color: white;
+    border: 1px solid #22272c;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    width: 91.5%;
+    margin-top: 1rem;
+}
+#Contact .left form input::placeholder ,#Contact .left form textarea::placeholder{
+    color: #50555a;
+}
+#Contact .left form .inp-right{
+    margin-left: -2.1rem;
+}
+#Contact .left form select{
+    width: 90%;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    background-color: black;
+    border-color:#22272c;
+    padding: 1rem 3rem 1rem 1rem;
+    color: white;
+}
+#Contact .left form select:focus{
+    background-color: white;
+    color: black;
+}
+#Contact .left form textarea{
+    width: 90%;
+    height: 12rem;
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+    border-color:#22272c;
+    padding: 1rem 3rem 1rem 1rem;
+}
+#Contact .left form [type="submit"]{
+    background: linear-gradient(to right, var(--font-color), var(--border-color));
+    width: 12rem;
+    border-radius: 2rem;
+    transition: .3s;
+}
+#Contact .left form [type="submit"]:hover{
+    animation: btnbg .11s 0s  ease both ;
+}
+@keyframes btnbg {
+    0%{
+            background: linear-gradient(to right, var(--font-color) , var(--border-color));
+    }
+    50%{
+            background: linear-gradient(to right, var(--font-color) , var(--border-color) , var(--font-color));
+    }
+    100%{
+        background: linear-gradient(to left, var(--font-color) , var(--border-color));
+    }
+}
+
+#Contact .right{
+    margin: 10rem 6rem;
+}
+#Contact .right .R-con{
+    margin-top: 3rem;
+    color: white;
+}
+
+#Contact .right .R-con i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 3rem;
+    background: linear-gradient(to top , var(--font-color) , var(--border-color));
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+#Contact .right .R-con h5{
+    margin-top: -.5rem;
+}
+
+
+@media (max-width: 767px){
+    #Contact .left form .inp-right {
+        margin-left: 0rem;
+    }
+    #Contact .right .R-con h5 ,#Contact .right .R-con{
+        font-size: .8rem;
+    }
+    #Contact .right{
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+}
+@media (min-width: 992px){
+
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1400px) {
+    #Contact .left form input{
+        background-color: black;
+        color: white;
+        border: 1px solid #22272c;
+        border-radius: .5rem;
+        padding: 1rem 1rem;
+        width: 91.5%;
+        margin-top: 1rem;
+    }
+    #Contact .left form .inp-right {
+        margin-left: -2.1rem;
+    }
+    #Contact .right .R-con h5 {
+        font-size: 1.25rem;
+    }
+    #Contact .right{
+        margin: 10rem 6rem;
+    }
+}

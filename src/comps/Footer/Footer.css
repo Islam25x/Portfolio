@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+:root{
+    --border-color:#3f1c81;
+    --font-color:#8750f7;
+}
+#Footer{
+    padding: 3rem 0 1rem;
+    background-color: #140c1c;
+    font-family: "Sora", sans-serif;
+}
+#Footer .title i{
+    color: white;
+    font-size: 4rem;
+}
+#Footer nav{
+    margin-left: -2rem;
+    flex-wrap: wrap;
+}
+#Footer a{
+    color: white;
+    margin: 2rem 0 2rem 2rem;
+    font-weight: 800;
+}
+#Footer p{
+    text-align: center;
+    color: var(--font-color);
+}

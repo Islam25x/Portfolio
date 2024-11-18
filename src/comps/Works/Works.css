@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    transition: .3s;
+}
+:root{
+    --border-color:#3f1c81;
+    --font-color:#8750f7;
+}
+#Works{
+    font-family: "Sora", sans-serif;
+    background: linear-gradient(to bottom, #0f0715,#0f0715, #261642,#0f0715, #0f0716);
+    padding-bottom: 7rem;
+
+}
+#Works .title{
+    font-size: 3rem;
+    padding: 8rem 0 2rem;
+}
+#Works nav .list {
+    background-color: black;
+    border-radius: 2rem;
+    justify-content: center;
+    width: fit-content;
+}
+#Works nav p{
+    color: white;
+    margin: .5rem .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+}
+#Works .Projects{
+    margin-top: 3rem;
+    background-color: #140c1c;
+    padding-top: 2rem;
+    border-radius: 1rem;
+    position: relative;
+}
+#Works .Projects img{
+    width: 90%;
+    margin-left: 5%;
+    height: 30rem;
+}
+#Works .Projects .link {
+    position: relative;
+    background: linear-gradient(to left, var(--border-color), var(--border-color), var(--font-color));
+    color: white;
+    padding: 2rem 1rem 1rem;
+    border-radius: 1rem;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: -8rem;
+    opacity: 0;
+}
+#Works .Projects .link i{
+    color: white;
+    transform: rotate(350deg);
+    right: 1rem;
+    top: 40%;
+}
+#Works .Projects:hover > .link{
+    opacity: 1;
+    transform: translateY(-1.5rem);
+}
+.active{
+    background: linear-gradient(to right, var(--font-color), var(--border-color));
+    border-radius: 2rem;
+    padding: .5rem 1.5rem;
+}
