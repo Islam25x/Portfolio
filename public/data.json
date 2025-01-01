@@ -3,21 +3,21 @@
         {
             "id": 1 ,
             "projectName": "Coffee Shop",
-            "projectLink": "file:///D:/coffee/index.html",
+            "projectLink": "https://islam25x.github.io/Coffee-shop/",
             "image": "./imgs/web-project 1.png",
             "type": "Web"
         },
         {
             "id": 2 ,
             "projectName": "Egyptiano",
-            "projectLink": "file:///D:/coffee/index.html",
+            "projectLink": "https://islam25x.github.io/Egyptiano/",
             "image": "./imgs/web-project 2.png",
             "type": "Web"
         },
         {
             "id": 3 ,
             "projectName": "ENGAGE",
-            "projectLink": "file:///D:/coffee/index.html",
+            "projectLink": "https://e-commerce-sage-nine-82.vercel.app/",
             "image": "./imgs/web-project 5.png",
             "type": "Web"
         }
@@ -31,7 +31,7 @@
         ,{
             "id": 5 ,
             "projectName": "VivaDecor",
-            "projectLink": "file:///D:/coffee/index.html",
+            "projectLink": "https://islam25x.github.io/VivaDeco/",
             "image": "./imgs/web-project 4.png",
             "type": "Web"
         }
