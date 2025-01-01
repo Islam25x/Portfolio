@@ -9,7 +9,7 @@ const Skills = () => {
 
     useEffect(() => {
         axios
-            .get('Skills.json')
+            .get('skills.json')
             .then((res) => {
                 setSkills(res.data.Skills);
             })
