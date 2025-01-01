@@ -8,7 +8,7 @@ const Footer = () => {
         <footer id='Footer'>
             <Container>
                 <h1 className='title text-center'>
-                    <i class="fa-brands fa-google"></i>
+                    <i className="fa-brands fa-google"></i>
                 </h1>
                 <nav className='d-flex justify-content-center'>
                     <HashLink to="/#Home">Home</HashLink>

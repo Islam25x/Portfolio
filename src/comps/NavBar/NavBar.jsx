@@ -10,7 +10,7 @@ const NavBar = () => {
         <Navbar expand="lg">
             <Container>
                 <Navbar.Brand className='d-flex'>
-                    <i class="fa-brands fa-google"></i>
+                    <i className="fa-brands fa-google"></i>
                     <p>islam.salah.is08@gmail.com</p>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />

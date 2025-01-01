@@ -20,12 +20,12 @@ const Resume = () => {
                 <Row>
                     <Col lg={6} md={6} sm={12}>
                         <div className="title d-flex" >
-                            <i class="fa-solid fa-medal"></i>
+                            <i className="fa-solid fa-medal"></i>
                             <h2>My Experience</h2>
                         </div>
                         {
                             Resumes.filter((Resume)=> Resume.type === "Ex").map((Resume)=>(
-                                <div className="con-box" >
+                                <div className="con-box" key={Resume.id} >
                                     <p className='time'>{Resume.Date}</p>
                                     <h3 className='name'>{Resume.ExName}</h3>
                                     <p className='des'>{Resume.ExDes}</p>
@@ -35,12 +35,12 @@ const Resume = () => {
                     </Col>
                     <Col lg={6} md={6} sm={12}>
                         <div className="title d-flex" >
-                        <i class="fa-solid fa-graduation-cap"></i>
+                        <i className="fa-solid fa-graduation-cap"></i>
                             <h2>My Education</h2>
                         </div>
                         {
                             Resumes.filter((Resume)=> Resume.type === "Edu").map((Resume)=>(
-                                <div className="con-box" data-aos="fade-left">
+                                <div className="con-box" key={Resume.id} data-aos="fade-left">
                                     <p className='time'>{Resume.Date}</p>
                                     <h3 className='name'>{Resume.ExName}</h3>
                                     <p className='des'>{Resume.ExDes}</p>

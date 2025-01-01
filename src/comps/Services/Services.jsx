@@ -17,7 +17,7 @@ const Services = () => {
                                 </div>
                                 <p>Brolly show off show off pick your nose and blow off well A bit of how’s your father tomfoolery blimey, me old...</p>
                                 <div className='space'></div>
-                                <i class="fa-solid fa-arrow-right-long"></i>
+                                <i className="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </li>
                         <li data-aos="fade-up">
@@ -28,7 +28,7 @@ const Services = () => {
                                 </div>
                                 <p>Brolly show off show off pick your nose and blow off well A bit of how’s your father tomfoolery blimey, me old...</p>
                                 <div className='space'></div>
-                                <i class="fa-solid fa-arrow-right-long"></i>
+                                <i className="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </li>
                     </ul>

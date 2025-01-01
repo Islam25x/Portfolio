@@ -20,7 +20,6 @@ function App() {
 
   return (
     <BrowserRouter>
-
         <NavBar />
         <Home />
         <Services/>
@@ -30,7 +29,6 @@ function App() {
         <Contact />
         <Footer />
         <ScrollToTop className='ScrollToTop' smooth top={800} />
-        
     </BrowserRouter>
 
   );

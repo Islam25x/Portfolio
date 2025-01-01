@@ -102,21 +102,21 @@ const Contact = () => {
                     <Col lg={6} md={12} sm={12}>
                         <div className="right">
                             <div className="R-con d-flex" data-aos="fade-left">
-                                <i class="fa-solid fa-phone"></i>
+                                <i className="fa-solid fa-phone"></i>
                                 <div className="text">
                                     <p>Phone</p>
                                     <h5>+20 1004791339</h5>
                                 </div>
                             </div>
                             <div className="R-con d-flex" data-aos="fade-left">
-                                <i class="fa-regular fa-envelope"></i>
+                                <i className="fa-regular fa-envelope"></i>
                                 <div className="text">
                                     <p>Email</p>
                                     <h5>islam.salah.is08@gmail.com</h5>
                                 </div>
                             </div>
                             <div className="R-con d-flex" data-aos="fade-left">
-                                <i class="fa-solid fa-location-dot"></i>
+                                <i className="fa-solid fa-location-dot"></i>
                                 <div className="text">
                                     <p>Address</p>
                                     <h5>Egypt,Cairo,Elnasr City</h5>

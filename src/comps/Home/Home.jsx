@@ -43,18 +43,15 @@ const Home = () => {
                                 I break down complex user experience problems to create integrity focussed solutions that connect billions of people
                             </p>
                             <div className="followMe d-flex">
-                                <button>Download Cv <i class="fa-solid fa-download"></i></button>
+                                <button>Download Cv <i className="fa-solid fa-download"></i></button>
                                 <a href="https://www.facebook.com/profile.php?id=100073313929787">
-                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i className="fa-brands fa-facebook-f"></i>
                                 </a>
                                 <a href="https://www.linkedin.com/in/islam-salah-b111bb275/">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </a>
-                                <a href="https://www.facebook.com/profile.php?id=100073313929787">
-                                    <i class="fa-brands fa-dribbble"></i>
+                                    <i className="fa-brands fa-linkedin-in"></i>
                                 </a>
                                 <a href="https://github.com/Islam25x">
-                                    <i class="fa-brands fa-github"></i>
+                                    <i className="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
