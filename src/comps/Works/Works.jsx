@@ -4,7 +4,7 @@ import axios from 'axios'
 
 import './Works.css'
 const Works = () => {
-    const [Projects , setProjects] = useState([])
+    const [Projects , setProjects] = useState([]);
         const [active, setActive] = useState('All');
 
     useEffect(()=>{
