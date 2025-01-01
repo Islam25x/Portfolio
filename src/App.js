@@ -18,8 +18,24 @@ import './App.css'
 
 function App() {
 
+  const [loading , setLoading] = useState(false)
+
+  useEffect(()=>{
+
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 3000);
+  },[])
   return (
     <BrowserRouter>
+      {    
+        loading?
+        <div className='RingLoader'>
+          <RingLoader color="#2c0470" size={120}/>
+        </div>
+        :
+        <>
         <NavBar />
         <Home />
         <Services/>
@@ -29,6 +45,8 @@ function App() {
         <Contact />
         <Footer />
         <ScrollToTop className='ScrollToTop' smooth top={800} />
+        </>
+      }
     </BrowserRouter>
 
   );
