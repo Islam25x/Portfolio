@@ -9,9 +9,9 @@
         },
         {
             "id": 2 ,
-            "projectName": "Egyptiano",
-            "projectLink": "https://islam25x.github.io/Egyptiano/",
-            "image": "./imgs/web-project 2.png",
+            "projectName": "Exclusive",
+            "projectLink": "https://e-commerce-advance.vercel.app/",
+            "image": "./imgs/React e-commerce.png",
             "type": "Web"
         },
         {
