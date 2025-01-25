@@ -2,10 +2,11 @@
     "R_Project": [
         {
             "id": 1 ,
-            "projectName": "Coffee Shop",
-            "projectLink": "https://islam25x.github.io/Coffee-shop/",
-            "image": "./imgs/web-project 1.png",
+            "projectName": "Atmoscan",
+            "projectLink": "https://atmoscan.vercel.app/",
+            "image": "./imgs/weather app.png",
             "type": "Web"
+
         },
         {
             "id": 2 ,
@@ -30,9 +31,9 @@
         }
         ,{
             "id": 5 ,
-            "projectName": "VivaDecor",
-            "projectLink": "https://islam25x.github.io/VivaDeco/",
-            "image": "./imgs/web-project 4.png",
+            "projectName": "Coffee Shop",
+            "projectLink": "https://islam25x.github.io/Coffee-shop/",
+            "image": "./imgs/web-project 1.png",
             "type": "Web"
         }
     ]

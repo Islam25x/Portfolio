@@ -59,13 +59,16 @@
     margin-top: 4rem;
     flex-wrap: wrap;
 }
-#Home .H-con .followMe button {
+#Home .H-con .followMe .cv {
     background-color: transparent;
     border: 2px solid var(--border-color);
     color: var(--font-color);
     font-size: 1.2rem;
-    padding: .8rem 2rem;
+    padding: .4rem 2rem .6rem;
     border-radius: 2rem;
+}
+#Home .H-con .followMe .cv i{
+    border: none;
 }
 #Home .H-con .followMe button i{
     font-size: 1rem;
@@ -82,8 +85,11 @@
     align-content: center;
     border-radius: 50%;
 }
-#Home .H-con .followMe button:hover,#Home .H-con .followMe a i:hover{
+#Home .H-con .followMe .cv:hover,#Home .H-con .followMe a i:hover{
     background-color: #8b4ffd;
+    color: white;
+}
+#Home .H-con .followMe .cv:hover > i{
     color: white;
 }
 #Home .H-photo img{

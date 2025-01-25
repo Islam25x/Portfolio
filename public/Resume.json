@@ -28,12 +28,5 @@
             "ExDes": "online, iti",
             "type":"Edu"
         }
-        ,        {
-            "id": 5 ,
-            "Date": "2024" ,
-            "ExName": "Front-end ANGULAR TRAINING",
-            "ExDes": "online, iti",
-            "type":"Edu"
-        }
     ]
 }

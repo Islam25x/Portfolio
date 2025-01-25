@@ -43,7 +43,9 @@ const Home = () => {
                                 I break down complex user experience problems to create integrity focussed solutions that connect billions of people
                             </p>
                             <div className="followMe d-flex">
-                                <button>Download Cv <i className="fa-solid fa-download"></i></button>
+                                <a className='cv' href="https://www.canva.com/design/DAGX5v2rhjQ/hbrLxxOruh8e77FFKrspsQ/view?utm_content=DAGX5v2rhjQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc112308ab1">
+                                Download Cv <i className="fa-solid fa-download"></i>
+                                </a>
                                 <a href="https://www.facebook.com/profile.php?id=100073313929787">
                                     <i className="fa-brands fa-facebook-f"></i>
                                 </a>
@@ -77,7 +79,7 @@ const Home = () => {
                     </Col>
                     <Col lg={3} md={6} sm={12}>
                         <div className="achieve d-flex">
-                            <h1> <Number n={22} /> </h1>
+                            <h1> <Number n={0} /> </h1>
                             <p>Happy Clients</p>
                         </div>
                     </Col>
