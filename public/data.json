@@ -11,7 +11,7 @@
         {
             "id": 2 ,
             "projectName": "Exclusive",
-            "projectLink": "https://e-commerce-advance.vercel.app/",
+            "projectLink": "https://e-commerce-typescript.vercel.app/",
             "image": "./imgs/React e-commerce.png",
             "type": "Web"
         },
